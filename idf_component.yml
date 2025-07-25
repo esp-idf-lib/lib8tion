@@ -20,4 +20,4 @@ issues: https://github.com/esp-idf-lib/lib8tion/issues
 discussion: https://github.com/esp-idf-lib/core/discussions
 files:
   exclude:
-    - docs
+    - docs/**/*
