@@ -1,5 +1,9 @@
 # esp-idf-lib/lib8tion
 
+[![Build examples](https://github.com/esp-idf-lib/lib8tion/actions/workflows//build.yml/badge.svg)](https://github.com/esp-idf-lib/lib8tion/actions/workflows//build.yml)
+[![Build docs](https://github.com/esp-idf-lib/lib8tion/actions/workflows//build-docs.yml/badge.svg)](https://github.com/esp-idf-lib/lib8tion/actions/workflows//build-docs.yml)
+[![Validation](https://github.com/esp-idf-lib/lib8tion/actions/workflows//validate-component.yml/badge.svg)](https://github.com/esp-idf-lib/lib8tion/actions/workflows//validate-component.yml)
+
 Math functions specifically designed for LED programming.
 
 * [Documentation](https://esp-idf-lib.github.io/lib8tion/)
@@ -11,7 +15,7 @@ Math functions specifically designed for LED programming.
 ## Installation
 
 ```sh
-idf.py add-dependency esp-idf-lib/lib8tion^1.0.0
+idf.py add-dependency esp-idf-lib/lib8tion
 ```
 
 ## Support
