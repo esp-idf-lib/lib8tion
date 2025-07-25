@@ -11,7 +11,7 @@ Math functions specifically designed for LED programming.
 ## Installation
 
 ```sh
-idf.py add-dependency "esp-idf-lib/lib8tion^1.0.0
+idf.py add-dependency esp-idf-lib/lib8tion^1.0.0
 ```
 
 ## Support
