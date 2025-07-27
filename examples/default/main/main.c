@@ -18,7 +18,6 @@
 #include <freertos/task.h>
 
 #include <esp_log.h>
-#include <example.h>
 #include <lib8tion.h>
 
 #include "my_local_header.h"
