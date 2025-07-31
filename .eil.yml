@@ -5,7 +5,8 @@ version: 1.0.6
 groups:
   - common
 code_owners: UncleRus
-depends: []
+depends:
+  - freertos
 thread_safe: N/A
 targets:
   - esp32
