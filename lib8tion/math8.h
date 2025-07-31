@@ -241,7 +241,8 @@ LIB8STATIC uint8_t sqrt16(uint16_t x)
                 return 255;
             low = mid + 1;
         }
-    } while (hi >= low);
+    }
+    while (hi >= low);
 
     return low - 1;
 }

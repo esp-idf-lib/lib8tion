@@ -244,22 +244,22 @@ typedef union
     float f;
     struct
     {
-        uint32_t mantissa :23;
-        uint32_t exponent :8;
-        uint32_t signbit :1;
+        uint32_t mantissa : 23;
+        uint32_t exponent : 8;
+        uint32_t signbit : 1;
     };
     struct
     {
-        uint32_t mant7 :7;
-        uint32_t mant16 :16;
-        uint32_t exp_ :8;
-        uint32_t sb_ :1;
+        uint32_t mant7 : 7;
+        uint32_t mant16 : 16;
+        uint32_t exp_ : 8;
+        uint32_t sb_ : 1;
     };
     struct
     {
-        uint32_t mant_lo8 :8;
-        uint32_t mant_hi16_exp_lo1 :16;
-        uint32_t sb_exphi7 :8;
+        uint32_t mant_lo8 : 8;
+        uint32_t mant_hi16_exp_lo1 : 16;
+        uint32_t sb_exphi7 : 8;
     };
 } IEEE754binary32_t;
 
@@ -477,7 +477,7 @@ LIB8STATIC fract8 ease8InOutCubic(fract8 i)
     uint8_t ii = scale8(i, i);
     uint8_t iii = scale8(ii, i);
 
-    uint16_t r1 = (3 * (uint16_t) (ii)) - (2 * (uint16_t) (iii));
+    uint16_t r1 = (3 * (uint16_t)(ii)) - (2 * (uint16_t)(iii));
 
     /* the code generated for the above *'s automatically
      cleans up R1, so there's no need to explicitily call
